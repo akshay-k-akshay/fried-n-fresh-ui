@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 
 function ProductDetails(props) {
   console.log(props);
   return (
     <div>
-      <Navbar />
+      <Header />
       <div className="products">
         <div className="container">
           <div className="agileinfo_single">

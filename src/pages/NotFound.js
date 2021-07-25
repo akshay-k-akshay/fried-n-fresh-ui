@@ -1,8 +1,10 @@
 import React from 'react';
+import Header from '../components/Header';
 
 function NotFound() {
   return (
     <div>
+      <Header />
       <div className="login">
         <div className="container">
           <h2>

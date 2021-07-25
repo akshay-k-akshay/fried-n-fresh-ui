@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 
 function ProductsPage() {
   return (
     <div>
-      <Navbar />
+      <Header />
       {/* <!--- products ---> */}
       <div className="products">
         <div className="container">

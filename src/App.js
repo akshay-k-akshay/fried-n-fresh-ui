@@ -6,7 +6,6 @@ import SignIn from './pages/SignIn';
 import HomePage from './pages/HomePage';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
-import Header from './components/Header';
 import NotFound from './pages/NotFound';
 import Cart from './pages/Cart';
 
@@ -14,7 +13,6 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/products" component={Products} />

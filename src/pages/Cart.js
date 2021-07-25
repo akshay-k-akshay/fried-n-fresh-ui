@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 
 function Cart() {
   return (
     <div>
-      <Navbar />
+      <Header />
       <div className="checkout">
         <div className="container">
           <h2>

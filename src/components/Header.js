@@ -20,9 +20,6 @@ function Header() {
             {isLoggedIn ? (
               <ul>
                 <li>
-                  <Link to="/profile"> Profile </Link>
-                </li>
-                <li>
                   {' '}
                   <Link to="" onClick={() => signOut()}>
                     {' '}
@@ -37,9 +34,6 @@ function Header() {
                 </li>
                 <li>
                   <Link to="/signin">Login</Link>
-                </li>
-                <li>
-                  <Link to="/">Help</Link>
                 </li>
               </ul>
             )}
@@ -58,7 +52,6 @@ function Header() {
               </button>
             </form>
           </div>
-          <div className="clearfix"> </div>
         </div>
       </div>
       <div className="logo_products">
@@ -100,6 +93,9 @@ function Header() {
         </div>
       </div>
       {/* //header  */}
+      <div className="navigation-agileits">
+        <nav className="navbar navbar-default"></nav>
+      </div>
     </div>
   );
 }
