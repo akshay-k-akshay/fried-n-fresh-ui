@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
@@ -18,11 +18,7 @@ function SignUp() {
             <form action="#" method="post">
               <input type="email" placeholder="Email Address" required=" " />
               <input type="password" placeholder="Password" required=" " />
-              <input
-                type="password"
-                placeholder="Password Confirmation"
-                required=" "
-              />
+              <input type="password" placeholder="Password Confirmation" required=" " />
               <div className="register-check-box">
                 <div className="check">
                   <label className="checkbox">
@@ -35,8 +31,8 @@ function SignUp() {
             </form>
             <br />
             <p>
-              already have Account <Link to="/signin">SignIn</Link> (Or) go back
-              to <Link to="/">Home</Link>
+              already have Account <Link to="/signin">SignIn</Link> (Or) go back to{" "}
+              <Link to="/">Home</Link>
             </p>
           </div>
         </div>

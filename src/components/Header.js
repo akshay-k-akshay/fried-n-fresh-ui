@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   function signOut() {
-    console.log('signed out');
+    console.log("signed out");
   }
   const isLoggedIn = false;
   return (
@@ -20,10 +20,10 @@ function Header() {
             {isLoggedIn ? (
               <ul>
                 <li>
-                  {' '}
+                  {" "}
                   <Link to="" onClick={() => signOut()}>
-                    {' '}
-                    Sign Out{' '}
+                    {" "}
+                    Sign Out{" "}
                   </Link>
                 </li>
               </ul>
@@ -42,12 +42,7 @@ function Header() {
             <form action="#" method="post" className="last">
               <input type="hidden" name="cmd" value="_cart" />
               <input type="hidden" name="display" value="1" />
-              <button
-                className="view-cart"
-                type="submit"
-                name="submit"
-                value=""
-              >
+              <button className="view-cart" type="submit" name="submit" value="">
                 <i className="fa fa-cart-arrow-down" aria-hidden="true"></i>
               </button>
             </form>
@@ -59,8 +54,8 @@ function Header() {
           <div className="ls_logo_products_left1">
             <ul className="phone_email">
               <li>
-                <i className="fa fa-phone" aria-hidden="true"></i>Order online
-                or call us : (+0123) 234 567
+                <i className="fa fa-phone" aria-hidden="true"></i>
+                Order online or call us : (+0123) 234 567
               </li>
             </ul>
           </div>
@@ -77,13 +72,9 @@ function Header() {
                 placeholder="Search for Link Product..."
                 required=""
               />
-              <button
-                type="submit"
-                className="btn btn-default search"
-                aria-label="Left Align"
-              >
+              <button type="submit" className="btn btn-default search" aria-label="Left Align">
                 <i className="fa fa-search" aria-hidden="true">
-                  {' '}
+                  {" "}
                 </i>
               </button>
               <div className="clearfix"></div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function SignIn() {
   return (
@@ -8,10 +8,7 @@ function SignIn() {
       <div className="login">
         <div className="container">
           <h2>Sign In Form</h2>
-          <div
-            className="login-form-grids animated wow slideInUp"
-            data-wow-delay=".5s"
-          >
+          <div className="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
             <form>
               <input type="email" placeholder="Email Address" required=" " />
               <input type="password" placeholder="Password" required=" " />
@@ -23,8 +20,7 @@ function SignIn() {
           </div>
           <h4>For New People</h4>
           <p>
-            <Link to="/signup">Register Here</Link> (Or) go back to{' '}
-            <Link to="/">Home</Link>
+            <Link to="/signup">Register Here</Link> (Or) go back to <Link to="/">Home</Link>
           </p>
         </div>
       </div>

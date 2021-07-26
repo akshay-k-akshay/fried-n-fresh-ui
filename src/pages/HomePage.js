@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 function HomePage() {
   return (
@@ -43,34 +43,15 @@ function HomePage() {
                               <div className="snipcart-item block">
                                 <div className="snipcart-thumb">
                                   <Link to="/products">
-                                    <img
-                                      title=" "
-                                      alt=" "
-                                      src="/assets/images/1.png"
-                                    />
+                                    <img title=" " alt=" " src="/assets/images/1.png" />
                                   </Link>
                                   <p>Tata-salt</p>
                                   <div className="stars">
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star gray-star"
-                                      aria-hidden="true"
-                                    ></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star gray-star" aria-hidden="true"></i>
                                   </div>
                                   <h4>
                                     $20.99 <span>$35.00</span>
@@ -79,51 +60,19 @@ function HomePage() {
                                 <div className="snipcart-details top_brand_home_details">
                                   <form action="#" method="post">
                                     <fieldset>
-                                      <input
-                                        type="hidden"
-                                        name="cmd"
-                                        value="_cart"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="add"
-                                        value="1"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="business"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="cmd" value="_cart" />
+                                      <input type="hidden" name="add" value="1" />
+                                      <input type="hidden" name="business" value=" " />
                                       <input
                                         type="hidden"
                                         name="item_name"
                                         value="Fortune Sunflower Oil"
                                       />
-                                      <input
-                                        type="hidden"
-                                        name="amount"
-                                        value="20.99"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="discount_amount"
-                                        value="1.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="currency_code"
-                                        value="USD"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="return"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="cancel_return"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="amount" value="20.99" />
+                                      <input type="hidden" name="discount_amount" value="1.00" />
+                                      <input type="hidden" name="currency_code" value="USD" />
+                                      <input type="hidden" name="return" value=" " />
+                                      <input type="hidden" name="cancel_return" value=" " />
                                       <input
                                         type="submit"
                                         name="submit"
@@ -154,34 +103,15 @@ function HomePage() {
                               <div className="snipcart-item block">
                                 <div className="snipcart-thumb">
                                   <Link to="/products">
-                                    <img
-                                      title=" "
-                                      alt=" "
-                                      src="/assets/images/2.png"
-                                    />
+                                    <img title=" " alt=" " src="/assets/images/2.png" />
                                   </Link>
                                   <p>Fortune-sunflower</p>
                                   <div className="stars">
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star gray-star"
-                                      aria-hidden="true"
-                                    ></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star gray-star" aria-hidden="true"></i>
                                   </div>
                                   <h4>
                                     $20.99 <span>$35.00</span>
@@ -190,51 +120,15 @@ function HomePage() {
                                 <div className="snipcart-details top_brand_home_details">
                                   <form action="#" method="post">
                                     <fieldset>
-                                      <input
-                                        type="hidden"
-                                        name="cmd"
-                                        value="_cart"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="add"
-                                        value="1"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="business"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="item_name"
-                                        value="basmati rise"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="amount"
-                                        value="20.99"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="discount_amount"
-                                        value="1.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="currency_code"
-                                        value="USD"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="return"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="cancel_return"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="cmd" value="_cart" />
+                                      <input type="hidden" name="add" value="1" />
+                                      <input type="hidden" name="business" value=" " />
+                                      <input type="hidden" name="item_name" value="basmati rise" />
+                                      <input type="hidden" name="amount" value="20.99" />
+                                      <input type="hidden" name="discount_amount" value="1.00" />
+                                      <input type="hidden" name="currency_code" value="USD" />
+                                      <input type="hidden" name="return" value=" " />
+                                      <input type="hidden" name="cancel_return" value=" " />
                                       <input
                                         type="submit"
                                         name="submit"
@@ -273,26 +167,11 @@ function HomePage() {
                                   </Link>
                                   <p>Aashirvaad-atta</p>
                                   <div className="stars">
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star gray-star"
-                                      aria-hidden="true"
-                                    ></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star gray-star" aria-hidden="true"></i>
                                   </div>
                                   <h4>
                                     $40.99 <span>$65.00</span>
@@ -301,51 +180,19 @@ function HomePage() {
                                 <div className="snipcart-details top_brand_home_details">
                                   <form action="#" method="post">
                                     <fieldset>
-                                      <input
-                                        type="hidden"
-                                        name="cmd"
-                                        value="_cart"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="add"
-                                        value="1"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="business"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="cmd" value="_cart" />
+                                      <input type="hidden" name="add" value="1" />
+                                      <input type="hidden" name="business" value=" " />
                                       <input
                                         type="hidden"
                                         name="item_name"
                                         value="Pepsi soft drink"
                                       />
-                                      <input
-                                        type="hidden"
-                                        name="amount"
-                                        value="40.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="discount_amount"
-                                        value="1.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="currency_code"
-                                        value="USD"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="return"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="cancel_return"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="amount" value="40.00" />
+                                      <input type="hidden" name="discount_amount" value="1.00" />
+                                      <input type="hidden" name="currency_code" value="USD" />
+                                      <input type="hidden" name="return" value=" " />
+                                      <input type="hidden" name="cancel_return" value=" " />
                                       <input
                                         type="submit"
                                         name="submit"
@@ -379,34 +226,15 @@ function HomePage() {
                               <div className="snipcart-item block">
                                 <div className="snipcart-thumb">
                                   <Link to="/products">
-                                    <img
-                                      title=" "
-                                      alt=" "
-                                      src="/assets/images/4.png"
-                                    />
+                                    <img title=" " alt=" " src="/assets/images/4.png" />
                                   </Link>
                                   <p>Sampann-toor-dal</p>
                                   <div className="stars">
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star gray-star"
-                                      aria-hidden="true"
-                                    ></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star gray-star" aria-hidden="true"></i>
                                   </div>
                                   <h4>
                                     $35.99 <span>$55.00</span>
@@ -415,51 +243,19 @@ function HomePage() {
                                 <div className="snipcart-details top_brand_home_details">
                                   <form action="#" method="post">
                                     <fieldset>
-                                      <input
-                                        type="hidden"
-                                        name="cmd"
-                                        value="_cart"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="add"
-                                        value="1"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="business"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="cmd" value="_cart" />
+                                      <input type="hidden" name="add" value="1" />
+                                      <input type="hidden" name="business" value=" " />
                                       <input
                                         type="hidden"
                                         name="item_name"
                                         value="Fortune Sunflower Oil"
                                       />
-                                      <input
-                                        type="hidden"
-                                        name="amount"
-                                        value="35.99"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="discount_amount"
-                                        value="1.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="currency_code"
-                                        value="USD"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="return"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="cancel_return"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="amount" value="35.99" />
+                                      <input type="hidden" name="discount_amount" value="1.00" />
+                                      <input type="hidden" name="currency_code" value="USD" />
+                                      <input type="hidden" name="return" value=" " />
+                                      <input type="hidden" name="cancel_return" value=" " />
                                       <input
                                         type="submit"
                                         name="submit"
@@ -490,34 +286,15 @@ function HomePage() {
                               <div className="snipcart-item block">
                                 <div className="snipcart-thumb">
                                   <Link to="/products">
-                                    <img
-                                      title=" "
-                                      alt=" "
-                                      src="/assets/images/5.png"
-                                    />
+                                    <img title=" " alt=" " src="/assets/images/5.png" />
                                   </Link>
                                   <p>Parryss-sugar</p>
                                   <div className="stars">
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star gray-star"
-                                      aria-hidden="true"
-                                    ></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star gray-star" aria-hidden="true"></i>
                                   </div>
                                   <h4>
                                     $30.99 <span>$45.00</span>
@@ -526,51 +303,15 @@ function HomePage() {
                                 <div className="snipcart-details top_brand_home_details">
                                   <form action="#" method="post">
                                     <fieldset>
-                                      <input
-                                        type="hidden"
-                                        name="cmd"
-                                        value="_cart"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="add"
-                                        value="1"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="business"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="item_name"
-                                        value="basmati rise"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="amount"
-                                        value="30.99"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="discount_amount"
-                                        value="1.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="currency_code"
-                                        value="USD"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="return"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="cancel_return"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="cmd" value="_cart" />
+                                      <input type="hidden" name="add" value="1" />
+                                      <input type="hidden" name="business" value=" " />
+                                      <input type="hidden" name="item_name" value="basmati rise" />
+                                      <input type="hidden" name="amount" value="30.99" />
+                                      <input type="hidden" name="discount_amount" value="1.00" />
+                                      <input type="hidden" name="currency_code" value="USD" />
+                                      <input type="hidden" name="return" value=" " />
+                                      <input type="hidden" name="cancel_return" value=" " />
                                       <input
                                         type="submit"
                                         name="submit"
@@ -616,26 +357,11 @@ function HomePage() {
                                   </Link>
                                   <p>Saffola-gold</p>
                                   <div className="stars">
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star blue-star"
-                                      aria-hidden="true"
-                                    ></i>
-                                    <i
-                                      className="fa fa-star gray-star"
-                                      aria-hidden="true"
-                                    ></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                                    <i className="fa fa-star gray-star" aria-hidden="true"></i>
                                   </div>
                                   <h4>
                                     $80.99 <span>$105.00</span>
@@ -644,51 +370,19 @@ function HomePage() {
                                 <div className="snipcart-details top_brand_home_details">
                                   <form action="#" method="post">
                                     <fieldset>
-                                      <input
-                                        type="hidden"
-                                        name="cmd"
-                                        value="_cart"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="add"
-                                        value="1"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="business"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="cmd" value="_cart" />
+                                      <input type="hidden" name="add" value="1" />
+                                      <input type="hidden" name="business" value=" " />
                                       <input
                                         type="hidden"
                                         name="item_name"
                                         value="Pepsi soft drink"
                                       />
-                                      <input
-                                        type="hidden"
-                                        name="amount"
-                                        value="80.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="discount_amount"
-                                        value="1.00"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="currency_code"
-                                        value="USD"
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="return"
-                                        value=" "
-                                      />
-                                      <input
-                                        type="hidden"
-                                        name="cancel_return"
-                                        value=" "
-                                      />
+                                      <input type="hidden" name="amount" value="80.00" />
+                                      <input type="hidden" name="discount_amount" value="1.00" />
+                                      <input type="hidden" name="currency_code" value="USD" />
+                                      <input type="hidden" name="return" value=" " />
+                                      <input type="hidden" name="cancel_return" value=" " />
                                       <input
                                         type="submit"
                                         name="submit"
@@ -720,29 +414,17 @@ function HomePage() {
         <div className="container">
           <div className="col-md-6 ban-bottom3">
             <div className="ban-top">
-              <img
-                src="/assets/images/p2.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src="/assets/images/p2.jpg" className="img-responsive" alt="" />
             </div>
             <div className="ban-img">
               <div className=" ban-bottom1">
                 <div className="ban-top">
-                  <img
-                    src="/assets/images/p3.jpg"
-                    className="img-responsive"
-                    alt=""
-                  />
+                  <img src="/assets/images/p3.jpg" className="img-responsive" alt="" />
                 </div>
               </div>
               <div className="ban-bottom2">
                 <div className="ban-top">
-                  <img
-                    src="/assets/images/p4.jpg"
-                    className="img-responsive"
-                    alt=""
-                  />
+                  <img src="/assets/images/p4.jpg" className="img-responsive" alt="" />
                 </div>
               </div>
               <div className="clearfix"></div>
@@ -750,11 +432,7 @@ function HomePage() {
           </div>
           <div className="col-md-6 ban-bottom">
             <div className="ban-top">
-              <img
-                src="/assets/images/111.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src="/assets/images/111.jpg" className="img-responsive" alt="" />
             </div>
           </div>
 
@@ -916,45 +594,22 @@ function HomePage() {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="/products">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/14.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/14.png" />
                           </Link>
                           <p>Fried-gram</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $35.99 <span>$55.00</span>
@@ -966,32 +621,12 @@ function HomePage() {
                               <input type="hidden" name="cmd" value="_cart" />
                               <input type="hidden" name="add" value="1" />
                               <input type="hidden" name="business" value=" " />
-                              <input
-                                type="hidden"
-                                name="item_name"
-                                value="Fortune Sunflower Oil"
-                              />
-                              <input
-                                type="hidden"
-                                name="amount"
-                                value="35.99"
-                              />
-                              <input
-                                type="hidden"
-                                name="discount_amount"
-                                value="1.00"
-                              />
-                              <input
-                                type="hidden"
-                                name="currency_code"
-                                value="USD"
-                              />
+                              <input type="hidden" name="item_name" value="Fortune Sunflower Oil" />
+                              <input type="hidden" name="amount" value="35.99" />
+                              <input type="hidden" name="discount_amount" value="1.00" />
+                              <input type="hidden" name="currency_code" value="USD" />
                               <input type="hidden" name="return" value=" " />
-                              <input
-                                type="hidden"
-                                name="cancel_return"
-                                value=" "
-                              />
+                              <input type="hidden" name="cancel_return" value=" " />
                               <input
                                 type="submit"
                                 name="submit"
@@ -1011,45 +646,22 @@ function HomePage() {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="/products">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/15.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/15.png" />
                           </Link>
                           <p>Navaratan-dal</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $30.99 <span>$45.00</span>
@@ -1061,32 +673,12 @@ function HomePage() {
                               <input type="hidden" name="cmd" value="_cart" />
                               <input type="hidden" name="add" value="1" />
                               <input type="hidden" name="business" value=" " />
-                              <input
-                                type="hidden"
-                                name="item_name"
-                                value="basmati rise"
-                              />
-                              <input
-                                type="hidden"
-                                name="amount"
-                                value="30.99"
-                              />
-                              <input
-                                type="hidden"
-                                name="discount_amount"
-                                value="1.00"
-                              />
-                              <input
-                                type="hidden"
-                                name="currency_code"
-                                value="USD"
-                              />
+                              <input type="hidden" name="item_name" value="basmati rise" />
+                              <input type="hidden" name="amount" value="30.99" />
+                              <input type="hidden" name="discount_amount" value="1.00" />
+                              <input type="hidden" name="currency_code" value="USD" />
                               <input type="hidden" name="return" value=" " />
-                              <input
-                                type="hidden"
-                                name="cancel_return"
-                                value=" "
-                              />
+                              <input type="hidden" name="cancel_return" value=" " />
                               <input
                                 type="submit"
                                 name="submit"
@@ -1106,52 +698,25 @@ function HomePage() {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block" />
                       <div className="snipcart-thumb">
                         <Link to="/products">
-                          <img
-                            src="/assets/images/16.png"
-                            alt=" "
-                            className="img-responsive"
-                          />
+                          <img src="/assets/images/16.png" alt=" " className="img-responsive" />
                         </Link>
                         <p>White-peasmatar</p>
                         <div className="stars">
-                          <i
-                            className="fa fa-star blue-star"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            className="fa fa-star blue-star"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            className="fa fa-star blue-star"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            className="fa fa-star blue-star"
-                            aria-hidden="true"
-                          ></i>
-                          <i
-                            className="fa fa-star gray-star"
-                            aria-hidden="true"
-                          ></i>
+                          <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                          <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                          <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                          <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                          <i className="fa fa-star gray-star" aria-hidden="true"></i>
                         </div>
                         <h4>
                           $80.99 <span>$105.00</span>
@@ -1163,28 +728,12 @@ function HomePage() {
                             <input type="hidden" name="cmd" value="_cart" />
                             <input type="hidden" name="add" value="1" />
                             <input type="hidden" name="business" value=" " />
-                            <input
-                              type="hidden"
-                              name="item_name"
-                              value="Pepsi soft drink"
-                            />
+                            <input type="hidden" name="item_name" value="Pepsi soft drink" />
                             <input type="hidden" name="amount" value="80.00" />
-                            <input
-                              type="hidden"
-                              name="discount_amount"
-                              value="1.00"
-                            />
-                            <input
-                              type="hidden"
-                              name="currency_code"
-                              value="USD"
-                            />
+                            <input type="hidden" name="discount_amount" value="1.00" />
+                            <input type="hidden" name="currency_code" value="USD" />
                             <input type="hidden" name="return" value=" " />
-                            <input
-                              type="hidden"
-                              name="cancel_return"
-                              value=" "
-                            />
+                            <input type="hidden" name="cancel_return" value=" " />
                             <input
                               type="submit"
                               name="submit"
@@ -1203,45 +752,22 @@ function HomePage() {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="/products">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/17.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/17.png" />
                           </Link>
                           <p>Channa-dal</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $35.99 <span>$55.00</span>
@@ -1253,32 +779,12 @@ function HomePage() {
                               <input type="hidden" name="cmd" value="_cart" />
                               <input type="hidden" name="add" value="1" />
                               <input type="hidden" name="business" value=" " />
-                              <input
-                                type="hidden"
-                                name="item_name"
-                                value="Fortune Sunflower Oil"
-                              />
-                              <input
-                                type="hidden"
-                                name="amount"
-                                value="35.99"
-                              />
-                              <input
-                                type="hidden"
-                                name="discount_amount"
-                                value="1.00"
-                              />
-                              <input
-                                type="hidden"
-                                name="currency_code"
-                                value="USD"
-                              />
+                              <input type="hidden" name="item_name" value="Fortune Sunflower Oil" />
+                              <input type="hidden" name="amount" value="35.99" />
+                              <input type="hidden" name="discount_amount" value="1.00" />
+                              <input type="hidden" name="currency_code" value="USD" />
                               <input type="hidden" name="return" value=" " />
-                              <input
-                                type="hidden"
-                                name="cancel_return"
-                                value=" "
-                              />
+                              <input type="hidden" name="cancel_return" value=" " />
                               <input
                                 type="submit"
                                 name="submit"

@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 function ProductsPage() {
   return (
@@ -38,22 +38,14 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/123">
-                              <img
-                                title=" "
-                                alt=" "
-                                src="/assets/images/pf4.png"
-                              />
+                              <img title=" " alt=" " src="/assets/images/pf4.png" />
                             </Link>
                             <p>Sampann-toor-dal</p>
                             <h4>
@@ -65,37 +57,17 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
+                                <input type="hidden" name="business" value=" " />
                                 <input
                                   type="hidden"
                                   name="item_name"
                                   value="Fortune Sunflower Oil"
                                 />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="35.99"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="amount" value="35.99" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -115,22 +87,14 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                title=" "
-                                alt=" "
-                                src="/assets/images/bv3.png"
-                              />
+                              <img title=" " alt=" " src="/assets/images/bv3.png" />
                             </Link>
                             <p>Parryss-sugar</p>
                             <h4>
@@ -142,37 +106,13 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
-                                <input
-                                  type="hidden"
-                                  name="item_name"
-                                  value="basmati rise"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="30.99"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="business" value=" " />
+                                <input type="hidden" name="item_name" value="basmati rise" />
+                                <input type="hidden" name="amount" value="30.99" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -192,29 +132,17 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                src="/assets/images/16.png"
-                                alt=" "
-                                className="img-responsive"
-                              />
+                              <img src="/assets/images/16.png" alt=" " className="img-responsive" />
                             </Link>
                             <p>Saffola-gold</p>
                             <h4>
@@ -226,37 +154,13 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
-                                <input
-                                  type="hidden"
-                                  name="item_name"
-                                  value="Pepsi soft drink"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="80.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="business" value=" " />
+                                <input type="hidden" name="item_name" value="Pepsi soft drink" />
+                                <input type="hidden" name="amount" value="80.00" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -279,22 +183,14 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                title=" "
-                                alt=" "
-                                src="/assets/images/hh4.png"
-                              />
+                              <img title=" " alt=" " src="/assets/images/hh4.png" />
                             </Link>
                             <p>Sampann-toor-dal</p>
                             <h4>
@@ -306,37 +202,17 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
+                                <input type="hidden" name="business" value=" " />
                                 <input
                                   type="hidden"
                                   name="item_name"
                                   value="Fortune Sunflower Oil"
                                 />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="35.99"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="amount" value="35.99" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -356,22 +232,14 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                title=" "
-                                alt=" "
-                                src="/assets/images/gu5.png"
-                              />
+                              <img title=" " alt=" " src="/assets/images/gu5.png" />
                             </Link>
                             <p>Parryss-sugar</p>
                             <h4>
@@ -383,37 +251,13 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
-                                <input
-                                  type="hidden"
-                                  name="item_name"
-                                  value="basmati rise"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="30.99"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="business" value=" " />
+                                <input type="hidden" name="item_name" value="basmati rise" />
+                                <input type="hidden" name="amount" value="30.99" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -433,18 +277,10 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
@@ -467,37 +303,13 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
-                                <input
-                                  type="hidden"
-                                  name="item_name"
-                                  value="Pepsi soft drink"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="80.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="business" value=" " />
+                                <input type="hidden" name="item_name" value="Pepsi soft drink" />
+                                <input type="hidden" name="amount" value="80.00" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -520,22 +332,14 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                title=" "
-                                alt=" "
-                                src="/assets/images/gu4.png"
-                              />
+                              <img title=" " alt=" " src="/assets/images/gu4.png" />
                             </Link>
                             <p>Sampann-toor-dal</p>
                             <h4>
@@ -547,37 +351,17 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
+                                <input type="hidden" name="business" value=" " />
                                 <input
                                   type="hidden"
                                   name="item_name"
                                   value="Fortune Sunflower Oil"
                                 />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="35.99"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="amount" value="35.99" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -597,22 +381,14 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                title=" "
-                                alt=" "
-                                src="/assets/images/5.png"
-                              />
+                              <img title=" " alt=" " src="/assets/images/5.png" />
                             </Link>
                             <p>Parryss-sugar</p>
                             <h4>
@@ -624,37 +400,13 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
-                                <input
-                                  type="hidden"
-                                  name="item_name"
-                                  value="basmati rise"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="30.99"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="business" value=" " />
+                                <input type="hidden" name="item_name" value="basmati rise" />
+                                <input type="hidden" name="amount" value="30.99" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"
@@ -674,29 +426,17 @@ function ProductsPage() {
                 <div className="hover14 column">
                   <div className="agile_top_brand_left_grid">
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid_pos">
-                      <img
-                        src="/assets/images/offer.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                     </div>
                     <div className="agile_top_brand_left_grid1">
                       <figure>
                         <div className="snipcart-item block">
                           <div className="snipcart-thumb">
                             <Link to="/products/id">
-                              <img
-                                src="/assets/images/6.png"
-                                alt=" "
-                                className="img-responsive"
-                              />
+                              <img src="/assets/images/6.png" alt=" " className="img-responsive" />
                             </Link>
                             <p>Saffola-gold</p>
                             <h4>
@@ -708,37 +448,13 @@ function ProductsPage() {
                               <fieldset>
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
-                                <input
-                                  type="hidden"
-                                  name="business"
-                                  value=" "
-                                />
-                                <input
-                                  type="hidden"
-                                  name="item_name"
-                                  value="Pepsi soft drink"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="amount"
-                                  value="80.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="discount_amount"
-                                  value="1.00"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="currency_code"
-                                  value="USD"
-                                />
+                                <input type="hidden" name="business" value=" " />
+                                <input type="hidden" name="item_name" value="Pepsi soft drink" />
+                                <input type="hidden" name="amount" value="80.00" />
+                                <input type="hidden" name="discount_amount" value="1.00" />
+                                <input type="hidden" name="currency_code" value="USD" />
                                 <input type="hidden" name="return" value=" " />
-                                <input
-                                  type="hidden"
-                                  name="cancel_return"
-                                  value=" "
-                                />
+                                <input type="hidden" name="cancel_return" value=" " />
                                 <input
                                   type="submit"
                                   name="submit"

@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 function Cart() {
   return (
@@ -31,11 +31,7 @@ function Cart() {
                   <td className="invert">1</td>
                   <td className="invert-image">
                     <Link to="single.html">
-                      <img
-                        src="/assets/images/1.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/1.png" alt=" " className="img-responsive" />
                     </Link>
                   </td>
                   <td className="invert">
@@ -62,11 +58,7 @@ function Cart() {
                   <td className="invert">2</td>
                   <td className="invert-image">
                     <Link to="single.html">
-                      <img
-                        src="/assets/images/2.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/2.png" alt=" " className="img-responsive" />
                     </Link>
                   </td>
                   <td className="invert">
@@ -93,11 +85,7 @@ function Cart() {
                   <td className="invert">3</td>
                   <td className="invert-image">
                     <Link to="single.html">
-                      <img
-                        src="/assets/images/3.png"
-                        alt=" "
-                        className="img-responsive"
-                      />
+                      <img src="/assets/images/3.png" alt=" " className="img-responsive" />
                     </Link>
                   </td>
                   <td className="invert">
@@ -146,10 +134,7 @@ function Cart() {
             </div>
             <div className="checkout-right-basket">
               <Link to="single.html">
-                <span
-                  className="glyphicon glyphicon-menu-left"
-                  aria-hidden="true"
-                ></span>
+                <span className="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
                 Continue Shopping
               </Link>
             </div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,25 +13,16 @@ function Footer() {
 
               <ul className="address">
                 <li>
-                  <i
-                    className="glyphicon glyphicon-map-marker"
-                    aria-hidden="true"
-                  ></i>
+                  <i className="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
                   1234k Avenue, 4th block,
                   <span>New York City.</span>
                 </li>
                 <li>
-                  <i
-                    className="glyphicon glyphicon-envelope"
-                    aria-hidden="true"
-                  ></i>
+                  <i className="glyphicon glyphicon-envelope" aria-hidden="true"></i>
                   <Link to="mailto:info@example.com">info@example.com</Link>
                 </li>
                 <li>
-                  <i
-                    className="glyphicon glyphicon-earphone"
-                    aria-hidden="true"
-                  ></i>
+                  <i className="glyphicon glyphicon-earphone" aria-hidden="true"></i>
                   +1234 567 567
                 </li>
               </ul>

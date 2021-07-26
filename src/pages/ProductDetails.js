@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 function ProductDetails(props) {
   console.log(props);
@@ -13,12 +13,7 @@ function ProductDetails(props) {
         <div className="container">
           <div className="agileinfo_single">
             <div className="col-md-4 agileinfo_single_left">
-              <img
-                id="example"
-                src="/assets/images/si1.jpg"
-                alt=" "
-                className="img-responsive"
-              />
+              <img id="example" src="/assets/images/si1.jpg" alt=" " className="img-responsive" />
             </div>
             <div className="col-md-8 agileinfo_single_right">
               <h2>KHARAMORRA Khakra - Hariyali</h2>
@@ -39,10 +34,9 @@ function ProductDetails(props) {
               <div className="agile_description">
                 <h4>Description :</h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
               </div>
               <div className="snipcart-item block">
@@ -57,22 +51,13 @@ function ProductDetails(props) {
                     <input type="hidden" name="cmd" value="_cart" />
                     <input type="hidden" name="add" value="1" />
                     <input type="hidden" name="business" value=" " />
-                    <input
-                      type="hidden"
-                      name="item_name"
-                      value="pulao basmati rice"
-                    />
+                    <input type="hidden" name="item_name" value="pulao basmati rice" />
                     <input type="hidden" name="amount" value="21.00" />
                     <input type="hidden" name="discount_amount" value="1.00" />
                     <input type="hidden" name="currency_code" value="USD" />
                     <input type="hidden" name="return" value=" " />
                     <input type="hidden" name="cancel_return" value=" " />
-                    <input
-                      type="submit"
-                      name="submit"
-                      value="Add to cart"
-                      className="button"
-                    />
+                    <input type="submit" name="submit" value="Add to cart" className="button" />
                   </fieldset>
                   {/* </form> */}
                 </div>
@@ -91,45 +76,22 @@ function ProductDetails(props) {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="products.html">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/14.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/14.png" />
                           </Link>
                           <p>Fried-gram</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $35.99 <span>$55.00</span>
@@ -143,22 +105,10 @@ function ProductDetails(props) {
                             <input type="hidden" name="business" value=" " />
                             {/* <input type="hidden" name="item_name" value="Fortune Sunflower Oil" /> */}
                             <input type="hidden" name="amount" value="35.99" />
-                            <input
-                              type="hidden"
-                              name="discount_amount"
-                              value="1.00"
-                            />
-                            <input
-                              type="hidden"
-                              name="currency_code"
-                              value="USD"
-                            />
+                            <input type="hidden" name="discount_amount" value="1.00" />
+                            <input type="hidden" name="currency_code" value="USD" />
                             <input type="hidden" name="return" value=" " />
-                            <input
-                              type="hidden"
-                              name="cancel_return"
-                              value=" "
-                            />
+                            <input type="hidden" name="cancel_return" value=" " />
                             <input
                               type="submit"
                               name="submit"
@@ -178,45 +128,22 @@ function ProductDetails(props) {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="products.html">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/15.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/15.png" />
                           </Link>
                           <p>Navaratan-dal</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $30.99 <span>$45.00</span>
@@ -228,28 +155,12 @@ function ProductDetails(props) {
                             <input type="hidden" name="cmd" value="_cart" />
                             <input type="hidden" name="add" value="1" />
                             <input type="hidden" name="business" value=" " />
-                            <input
-                              type="hidden"
-                              name="item_name"
-                              value="basmati rise"
-                            />
+                            <input type="hidden" name="item_name" value="basmati rise" />
                             <input type="hidden" name="amount" value="30.99" />
-                            <input
-                              type="hidden"
-                              name="discount_amount"
-                              value="1.00"
-                            />
-                            <input
-                              type="hidden"
-                              name="currency_code"
-                              value="USD"
-                            />
+                            <input type="hidden" name="discount_amount" value="1.00" />
+                            <input type="hidden" name="currency_code" value="USD" />
                             <input type="hidden" name="return" value=" " />
-                            <input
-                              type="hidden"
-                              name="cancel_return"
-                              value=" "
-                            />
+                            <input type="hidden" name="cancel_return" value=" " />
                             <input
                               type="submit"
                               name="submit"
@@ -269,45 +180,22 @@ function ProductDetails(props) {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="products.html">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/15.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/15.png" />
                           </Link>
                           <p>Navaratan-dal</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $30.99 <span>$45.00</span>
@@ -319,28 +207,12 @@ function ProductDetails(props) {
                             <input type="hidden" name="cmd" value="_cart" />
                             <input type="hidden" name="add" value="1" />
                             <input type="hidden" name="business" value=" " />
-                            <input
-                              type="hidden"
-                              name="item_name"
-                              value="basmati rise"
-                            />
+                            <input type="hidden" name="item_name" value="basmati rise" />
                             <input type="hidden" name="amount" value="30.99" />
-                            <input
-                              type="hidden"
-                              name="discount_amount"
-                              value="1.00"
-                            />
-                            <input
-                              type="hidden"
-                              name="currency_code"
-                              value="USD"
-                            />
+                            <input type="hidden" name="discount_amount" value="1.00" />
+                            <input type="hidden" name="currency_code" value="USD" />
                             <input type="hidden" name="return" value=" " />
-                            <input
-                              type="hidden"
-                              name="cancel_return"
-                              value=" "
-                            />
+                            <input type="hidden" name="cancel_return" value=" " />
                             <input
                               type="submit"
                               name="submit"
@@ -360,45 +232,22 @@ function ProductDetails(props) {
               <div className="hover14 column">
                 <div className="agile_top_brand_left_grid">
                   <div className="agile_top_brand_left_grid_pos">
-                    <img
-                      src="/assets/images/offer.png"
-                      alt=" "
-                      className="img-responsive"
-                    />
+                    <img src="/assets/images/offer.png" alt=" " className="img-responsive" />
                   </div>
                   <div className="agile_top_brand_left_grid1">
                     <figure>
                       <div className="snipcart-item block">
                         <div className="snipcart-thumb">
                           <Link to="products.html">
-                            <img
-                              title=" "
-                              alt=" "
-                              src="/assets/images/15.png"
-                            />
+                            <img title=" " alt=" " src="/assets/images/15.png" />
                           </Link>
                           <p>Navaratan-dal</p>
                           <div className="stars">
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star blue-star"
-                              aria-hidden="true"
-                            ></i>
-                            <i
-                              className="fa fa-star gray-star"
-                              aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star blue-star" aria-hidden="true"></i>
+                            <i className="fa fa-star gray-star" aria-hidden="true"></i>
                           </div>
                           <h4>
                             $30.99 <span>$45.00</span>
@@ -410,28 +259,12 @@ function ProductDetails(props) {
                             <input type="hidden" name="cmd" value="_cart" />
                             <input type="hidden" name="add" value="1" />
                             <input type="hidden" name="business" value=" " />
-                            <input
-                              type="hidden"
-                              name="item_name"
-                              value="basmati rise"
-                            />
+                            <input type="hidden" name="item_name" value="basmati rise" />
                             <input type="hidden" name="amount" value="30.99" />
-                            <input
-                              type="hidden"
-                              name="discount_amount"
-                              value="1.00"
-                            />
-                            <input
-                              type="hidden"
-                              name="currency_code"
-                              value="USD"
-                            />
+                            <input type="hidden" name="discount_amount" value="1.00" />
+                            <input type="hidden" name="currency_code" value="USD" />
                             <input type="hidden" name="return" value=" " />
-                            <input
-                              type="hidden"
-                              name="cancel_return"
-                              value=" "
-                            />
+                            <input type="hidden" name="cancel_return" value=" " />
                             <input
                               type="submit"
                               name="submit"

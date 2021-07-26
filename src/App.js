@@ -1,13 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import SignUp from './pages/SignUp';
-import SignIn from './pages/SignIn';
-import HomePage from './pages/HomePage';
-import Products from './pages/Products';
-import ProductDetails from './pages/ProductDetails';
-import NotFound from './pages/NotFound';
-import Cart from './pages/Cart';
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
+import HomePage from "./pages/HomePage";
+import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
+import NotFound from "./pages/NotFound";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
