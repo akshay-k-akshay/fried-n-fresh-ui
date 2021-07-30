@@ -5,6 +5,29 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 function Cart() {
+  const products = [
+    {
+      id: "1",
+      title: "Tata Salt",
+      price: "290.00",
+      quantity: 1,
+      image: "/assets/images/1.png",
+    },
+    {
+      id: "2",
+      title: "Fortune oil",
+      price: "250.00",
+      quantity: 1,
+      image: "/assets/images/2.png",
+    },
+    {
+      id: "3",
+      title: "Aashirvaad atta",
+      price: "15.00",
+      quantity: 1,
+      image: "/assets/images/3.png",
+    },
+  ];
   return (
     <div>
       <Header />
@@ -27,93 +50,46 @@ function Cart() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="rem1">
-                  <td className="invert">1</td>
-                  <td className="invert-image">
-                    <Link to="single.html">
-                      <img src="/assets/images/1.png" alt=" " className="img-responsive" />
-                    </Link>
-                  </td>
-                  <td className="invert">
-                    <div className="quantity">
-                      <div className="quantity-select">
-                        <div className="entry value-minus">&nbsp;</div>
-                        <div className="entry value">
-                          <span>1</span>
+                {products.map((product, index) => {
+                  {
+                    console.log(product);
+                  }
+                  return (
+                    <tr className="rem1" key={product.id}>
+                      <td className="invert">{index + 1}</td>
+                      <td className="invert-image">
+                        <Link to={`/products/${product.id}`}>
+                          <img src={product.image} alt=" " className="img-responsive" />
+                        </Link>
+                      </td>
+                      <td className="invert">
+                        <div className="quantity">
+                          <div className="quantity-select">
+                            <div className="entry value-minus">&nbsp;</div>
+                            <div className="entry value">
+                              <span>{product.quantity}</span>
+                            </div>
+                            <div className="entry value-plus active">&nbsp;</div>
+                          </div>
                         </div>
-                        <div className="entry value-plus active">&nbsp;</div>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="invert">Tata Salt</td>
+                      </td>
+                      <td className="invert">{product.title}</td>
 
-                  <td className="invert">$290.00</td>
-                  <td className="invert">
-                    <div className="rem">
-                      <div className="close1"> </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr className="rem2">
-                  <td className="invert">2</td>
-                  <td className="invert-image">
-                    <Link to="single.html">
-                      <img src="/assets/images/2.png" alt=" " className="img-responsive" />
-                    </Link>
-                  </td>
-                  <td className="invert">
-                    <div className="quantity">
-                      <div className="quantity-select">
-                        <div className="entry value-minus">&nbsp;</div>
-                        <div className="entry value">
-                          <span>1</span>
+                      <td className="invert">${product.price}</td>
+                      <td className="invert">
+                        <div className="rem">
+                          <div className="close1"> </div>
                         </div>
-                        <div className="entry value-plus active">&nbsp;</div>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="invert">Fortune oil</td>
-
-                  <td className="invert">$250.00</td>
-                  <td className="invert">
-                    <div className="rem">
-                      <div className="close2"> </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr className="rem3">
-                  <td className="invert">3</td>
-                  <td className="invert-image">
-                    <Link to="single.html">
-                      <img src="/assets/images/3.png" alt=" " className="img-responsive" />
-                    </Link>
-                  </td>
-                  <td className="invert">
-                    <div className="quantity">
-                      <div className="quantity-select">
-                        <div className="entry value-minus">&nbsp;</div>
-                        <div className="entry value">
-                          <span>1</span>
-                        </div>
-                        <div className="entry value-plus active">&nbsp;</div>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="invert">Aashirvaad atta</td>
-
-                  <td className="invert">$15.00</td>
-                  <td className="invert">
-                    <div className="rem">
-                      <div className="close3"> </div>
-                    </div>
-                  </td>
-                </tr>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
           <div className="checkout-left">
             <div className="checkout-left-basket">
-              <h4>Continue to basket</h4>
+              <h4>Checkout</h4>
               <ul>
                 <li>
                   Product1 <i>-</i> <span>$15.00 </span>
@@ -133,7 +109,7 @@ function Cart() {
               </ul>
             </div>
             <div className="checkout-right-basket">
-              <Link to="single.html">
+              <Link to="/products">
                 <span className="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
                 Continue Shopping
               </Link>
