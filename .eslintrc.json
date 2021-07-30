@@ -22,7 +22,8 @@
     "global-require": 0,
     "operator-linebreak": [2, "before"],
     "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": "off"
   },
   "settings": {
     "react": {
