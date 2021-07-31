@@ -32,7 +32,7 @@ function ProductsPage() {
                           <figure>
                             <div className="snipcart-item block">
                               <div className="snipcart-thumb">
-                                <Link to="/products/123">
+                                <Link to={`/products/${product.id}`}>
                                   <img title=" " alt=" " src={product.image} />
                                 </Link>
                                 <p>{product.title}</p>

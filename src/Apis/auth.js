@@ -14,14 +14,24 @@ export async function signUp(signUpInfo) {
     .auth()
     .createUserWithEmailAndPassword(signUpInfo.email, signUpInfo.password)
     .then((response) => {
-      return response.user
-        .updateProfile({ displayName: `${signUpInfo.firstName} ${signUpInfo.lastName}` })
-        .add({
-          id: response.user.uid,
-          ...signUpInfo,
+      response.user
+        .updateProfile({
+          displayName: `${signUpInfo.lastName} ${signUpInfo.lastName}`,
         })
-        .then((res) => {
-          return res;
+        .then(() => {
+          firebase
+            .firestore()
+            .collection("users")
+            .add({
+              id: response.user.id,
+              email: response.user.email,
+              phone: signUpInfo.phone,
+              firstName: signUpInfo.firstName,
+              lastName: signUpInfo.lastName,
+            })
+            .then((res) => {
+              return res;
+            });
         });
     });
 }

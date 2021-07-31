@@ -3,13 +3,17 @@ import { Link } from "react-router-dom";
 
 import { authApi } from "../Apis";
 
-function SignIn() {
+// const history = useHistory();
+
+function SignIn(props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  async function submit() {
-    const response = await authApi.signIn(email, password);
-    console.log(response);
+  async function submit(e) {
+    e.preventDefault();
+    await authApi.signIn(email, password).then(() => {
+      props.history.push("/");
+    });
   }
   return (
     <div>

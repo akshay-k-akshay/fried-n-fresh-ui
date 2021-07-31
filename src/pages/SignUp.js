@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 import { authApi } from "../Apis";
 
-function SignUp() {
+// const history = useHistory();
+
+function SignUp(props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
 
-  async function submit() {
-    const response = await authApi.signUp({ email, password, firstName, lastName, phone });
-    console.log(response);
+  async function submit(e) {
+    e.preventDefault();
+    authApi.signUp({ email, password, firstName, lastName, phone }).then(() => {
+      props.history.push("/");
+    });
   }
 
   return (
@@ -51,7 +56,7 @@ function SignUp() {
                 required=" "
               />
               <input
-                type="text"
+                type="number"
                 placeholder="phone number"
                 value={phone}
                 onChange={(e) => {

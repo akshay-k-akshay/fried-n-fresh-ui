@@ -7,6 +7,7 @@ import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import NotFound from "./pages/NotFound";
 import Cart from "./pages/Cart";
+import AddProducts from "./pages/AddProducts";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/cart" component={Cart} />
           <Route exact path="/signin" component={SignIn} />
           <Route exact path="/signup" component={SignUp} />
+          <Route exact path="/admin/addproduct" component={AddProducts} />
 
           <Route component={NotFound} />
         </Switch>
