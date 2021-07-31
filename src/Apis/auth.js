@@ -1,5 +1,14 @@
 import { firebase } from "../config";
 
+export async function signIn(email, password) {
+  return firebase
+    .auth()
+    .signInWithEmailAndPassword(email, password)
+    .then((response) => {
+      console.log(response);
+    });
+}
+
 export async function signUp(signUpInfo) {
   return firebase
     .auth()
