@@ -4,6 +4,14 @@ on:
   push:
     branches:
       - master
+
+env:
+  REACT_APP_API_KEY: ${{ secrets.PROD_API_KEY }}
+  REACT_APP_AUTH_DOMAIN: ${{ secrets.PROD_AUTH_DOMAIN }}
+  REACT_APP_DATABASE_URL: ${{ secrets.PROD_DATABASE_URL }}
+  REACT_APP_PROJECT_ID: ${{ secrets.PROD_PROJECT_ID }}
+  REACT_APP_STORAGE_BUCKET: ${{ secrets.PROD_STORAGE_BUCKET }}
+
 jobs:
   test:
     runs-on: ubuntu-latest

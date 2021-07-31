@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-import HomePage from "./pages/HomePage";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import NotFound from "./pages/NotFound";
@@ -14,7 +13,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" render={() => <Redirect to="/products" />} />
           <Route exact path="/products" component={Products} />
           <Route exact path="/products/:id" component={ProductDetails} />
           <Route exact path="/cart" component={Cart} />

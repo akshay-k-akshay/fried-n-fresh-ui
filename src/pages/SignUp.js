@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { authApi } from "../Apis";
 
 function SignUp() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [phone, setPhone] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+
+  async function submit() {
+    const response = await authApi.signUp({ email, password, firstName, lastName, phone });
+    console.log(response);
+  }
+
   return (
     <div>
       {/* register  */}
@@ -10,25 +22,54 @@ function SignUp() {
           <h2>SignUp Here</h2>
           <div className="login-form-grids">
             <h5>profile information</h5>
-            <form action="#" method="post">
-              <input type="text" placeholder="First Name..." required=" " />
-              <input type="text" placeholder="Last Name..." required=" " />
+            <form>
+              <input
+                type="text"
+                placeholder="First Name..."
+                value={firstName}
+                onChange={(e) => {
+                  setFirstName(e.target.value);
+                }}
+                required=" "
+              />
+              <input
+                type="text"
+                placeholder="Last Name..."
+                value={lastName}
+                onChange={(e) => {
+                  setLastName(e.target.value);
+                }}
+                required=" "
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                required=" "
+              />
+              <input
+                type="text"
+                placeholder="phone number"
+                value={phone}
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                }}
+                required=" "
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
+                required=" "
+              />
             </form>
-            <h6>Login information</h6>
-            <form action="#" method="post">
-              <input type="email" placeholder="Email Address" required=" " />
-              <input type="password" placeholder="Password" required=" " />
-              <input type="password" placeholder="Password Confirmation" required=" " />
-              <div className="register-check-box">
-                <div className="check">
-                  <label className="checkbox">
-                    <input type="checkbox" name="checkbox" />
-                    <i> </i>I accept the terms and conditions
-                  </label>
-                </div>
-              </div>
-              <input type="submit" value="SignUp" />
-            </form>
+            <input onClick={submit} type="button" value="SignUp" />
             <br />
             <p>
               already have Account <Link to="/signin">SignIn</Link> (Or) go back to{" "}
