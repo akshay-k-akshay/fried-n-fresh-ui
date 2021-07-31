@@ -1,33 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { userApi } from "../Apis";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 function Cart() {
-  const products = [
-    {
-      id: "1",
-      title: "Tata Salt",
-      price: "290.00",
-      quantity: 1,
-      image: "/assets/images/1.png",
-    },
-    {
-      id: "2",
-      title: "Fortune oil",
-      price: "250.00",
-      quantity: 1,
-      image: "/assets/images/2.png",
-    },
-    {
-      id: "3",
-      title: "Aashirvaad atta",
-      price: "15.00",
-      quantity: 1,
-      image: "/assets/images/3.png",
-    },
-  ];
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    userApi.cart("111").then((response) => {
+      setProducts(response);
+    });
+  }, []);
   return (
     <div>
       <Header />
