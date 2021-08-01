@@ -5,14 +5,20 @@ const products = firebase.firestore().collection("products");
 
 export async function list() {
   const response = await products.get();
-  console.log(response.docs);
-  return response.docs;
+  return response.docs.map((item) => {
+    return {
+      id: item.id,
+      ...item.data(),
+    };
+  });
 }
 
-export async function find(id) {
-  const response = await products.doc(id).get();
-  console.log(response);
-  return response.data;
+export async function find(prodId) {
+  const { ref, id } = await products.doc(prodId).get();
+  return {
+    id,
+    ...(await ref.get()).data(),
+  };
 }
 
 export async function add(product, image) {

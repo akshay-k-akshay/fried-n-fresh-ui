@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import { authApi } from "../Apis";
 
-// const history = useHistory();
-
 function SignUp(props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

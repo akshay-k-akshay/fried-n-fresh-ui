@@ -33,5 +33,8 @@ export async function signUp(signUpInfo) {
               return res;
             });
         });
+    })
+    .catch((err) => {
+      alert(err.message);
     });
 }

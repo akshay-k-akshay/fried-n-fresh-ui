@@ -33,7 +33,12 @@ function ProductsPage() {
                             <div className="snipcart-item block">
                               <div className="snipcart-thumb">
                                 <Link to={`/products/${product.id}`}>
-                                  <img title=" " alt=" " src={product.image} />
+                                  <img
+                                    title=" "
+                                    alt=" "
+                                    style={{ width: "100%" }}
+                                    src={product.image}
+                                  />
                                 </Link>
                                 <p>{product.title}</p>
                                 <h4> ${product.price} </h4>
