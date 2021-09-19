@@ -1,6 +1,5 @@
 {
   "projects": {
-    "production": "fried-n-fresh",
-    "staging": "fried-n-fresh-staging"
+    "production": "supermarket"
   }
 }
