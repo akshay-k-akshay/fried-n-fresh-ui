@@ -13,7 +13,7 @@ function Header() {
         <div className="container">
           <div className="l_offers">
             <p>
-              <Link to="products">SHOP NOW</Link>
+              <Link to="/products">SHOP NOW</Link>
             </p>
           </div>
           <div className="agile-login">
@@ -39,13 +39,9 @@ function Header() {
             )}
           </div>
           <div className="product_list_header">
-            <form action="#" method="post" className="last">
-              <input type="hidden" name="cmd" value="_cart" />
-              <input type="hidden" name="display" value="1" />
-              <button className="view-cart" type="submit" name="submit" value="">
-                <i className="fa fa-cart-arrow-down" aria-hidden="true"></i>
-              </button>
-            </form>
+            <Link to="/cart" className="view-cart">
+              <i className="fa fa-cart-arrow-down" aria-hidden="true"></i>
+            </Link>
           </div>
         </div>
       </div>
@@ -61,7 +57,7 @@ function Header() {
           </div>
           <div className="ls_logo_products_left">
             <h1>
-              <Link to="">super Market</Link>
+              <Link to="/">super Market</Link>
             </h1>
           </div>
           <div className="l_search">
